@@ -7,7 +7,7 @@ const Friend = (props) => {
     const showFrinedDetail = () =>{
         const path = `/friend/${id}`;
         navigate(path)
-    }
+    };
     return (
         <div>
             <h2>name : {name}</h2>

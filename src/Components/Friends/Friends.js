@@ -11,7 +11,6 @@ const Friends = () => {
     return (
         <div>
             <h1>hello Friends ! how are you ?</h1>
-                        {/* <p>O hello all of my Friends : {Friends.length} </p> */}
             {
                 Friends.map(friend => <Friend
                     key={friend.id}
