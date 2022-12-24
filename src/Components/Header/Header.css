@@ -1,0 +1,10 @@
+.link1{
+    font-size: 20px;
+    text-decoration: none;
+    gap: 2px;
+}
+.link2{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 2em; 
+}
