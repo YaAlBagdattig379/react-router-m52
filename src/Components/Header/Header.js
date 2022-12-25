@@ -14,7 +14,8 @@ const Header = () => {
         <div>
             <h1>Welcome to my routing website</h1>
             <nav className='nav'>
-                {/* <a href="/">Home</a> // normal exp>>>>... 1
+                   {/*normal exp>>....1......*/}
+                {/*<a href="/">Home</a>
                 <a href="/friends">Friends</a>
                 <a href="/about">about</a> */}
                   {/*  exp>>>....2 Link usage*/}
