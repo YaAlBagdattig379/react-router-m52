@@ -26,6 +26,7 @@ const Header = () => {
                 <NavLink style={NavLinkCSS} to="/">Home</NavLink>
                 <NavLink style={NavLinkCSS} to="/friends">Friends</NavLink>
                 <NavLink style={NavLinkCSS} to="/posts">Posts</NavLink>
+                <NavLink style={NavLinkCSS} to="/countries">Countries</NavLink>
                 <NavLink style={NavLinkCSS} to="/about">About</NavLink>
             </nav>
         </div>

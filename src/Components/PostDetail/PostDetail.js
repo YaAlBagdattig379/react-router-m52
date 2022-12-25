@@ -6,7 +6,6 @@ const PostDetail = () => {
     // const [post,setPost] = useState([]);
     const [post,setPost] = useState({});
     useEffect( () => {
-        // const url = 
         fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
         .then(res => res.json())
         .then(data => setPost(data))
