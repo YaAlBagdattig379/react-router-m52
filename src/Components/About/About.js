@@ -3,7 +3,8 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-           <h3>this is for about !</h3>
+           <h2>This is for about !</h2>
+           <p> wow ! about of  us </p> 
            <p> wow ! about of  us </p> 
         </div>
     );

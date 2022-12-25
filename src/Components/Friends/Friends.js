@@ -10,7 +10,7 @@ const Friends = () => {
     },[])
     return (
         <div>
-            <h1>hello Friends ! how are you ?</h1>
+            <h1>Hello Friends ! how are you ?</h1>
             {
                 Friends.map(friend => <Friend
                     key={friend.id}
