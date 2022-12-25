@@ -5,7 +5,9 @@ const Header = () => {
     const NavLinkCSS = ({isActive}) =>{
      return{
         fontWeight : isActive ? 'bold' : 'normal',
-        fontSize : isActive ? '20px' : '15px'
+        fontSize : isActive ? '20px' : '15px',
+        color: isActive ? 'green' : "black",
+        textDecoration : isActive ? 'none' : 'underline'
      }
     }
     return (
