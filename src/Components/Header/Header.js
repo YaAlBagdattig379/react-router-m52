@@ -9,10 +9,10 @@ const Header = () => {
         color: isActive ? 'green' : "black",
         textDecoration : isActive ? 'none' : 'underline'
      }
-    }
+    };
     return (
         <div>
-            <h1>Welcome to my routing website</h1>
+            <h1>Welcome To My Routing Website</h1>
             <nav className='nav'>
                    {/*normal exp>>....1......*/}
                 {/*<a href="/">Home</a>
