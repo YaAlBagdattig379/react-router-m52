@@ -5,7 +5,8 @@ const CountriDetail = () => {
     const {countriName} = useParams();
     return (
         <div>
-            <h1>country name : {countriName}</h1>
+            <h2>country name : {countriName}</h2>
+            <h1>Capital : {countriName}</h1>
         </div>
     );
 };

@@ -14,7 +14,7 @@ const Countries = () => {
             <ul>
                 {
                     countries.map(country =><li><Link 
-                        key={country.id}
+                        key={country.name.ccn3}
                         to={`/country/${country.name.common}`}>{country.name.common}</Link></li>)
                 }
             </ul>
